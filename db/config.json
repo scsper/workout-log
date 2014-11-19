@@ -1,6 +1,6 @@
 {
     "db": {
-        "name": "esl_development",
+        "name": "workout_log",
         "user": "ssperlin",
         "host": "localhost"
     }
