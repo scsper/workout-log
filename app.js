@@ -1,3 +1,9 @@
 var db = require('./db/index.js');
 
-db.getAll();
+db.insert('run', function(err, result) {
+    console.log('insert result', result);
+
+    db.getAll(function(err, result) {
+        console.log('getAll', result);
+    });
+});

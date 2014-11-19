@@ -1,5 +1,5 @@
 var pg = require('pg'),
-    db = require('./db/config.json')['db'];
+    db = require('./config.json')['db'];
 
 /**
  * @param {String} query SQL query
@@ -7,7 +7,7 @@ var pg = require('pg'),
  * @param {Function} cb will take (err, results) args
  */
 module.exports = function(query, values, cb) {
-    var dbConnect = 'postgres://' + db.user + '@' + db.host + '/' + db.database;
+    var dbConnect = 'postgres://' + db.user + '@' + db.host + '/' + db.name;
 
     pg.connect(dbConnect, function(err, client, done) {
         if (err) {

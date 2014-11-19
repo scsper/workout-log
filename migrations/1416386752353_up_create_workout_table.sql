@@ -1,1 +1,4 @@
-create table "workouts" (id bigint, type varchar(255));
+create table "workouts" (
+    id SERIAL PRIMARY KEY,
+    type varchar(255)
+);
