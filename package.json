@@ -1,0 +1,22 @@
+{
+  "name": "workout-log",
+  "version": "0.0.1",
+  "description": "workout-log ===========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scsper/workout-log.git"
+  },
+  "author": "Scott Sperling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scsper/workout-log/issues"
+  },
+  "homepage": "https://github.com/scsper/workout-log",
+  "dependencies": {
+    "sql-migrations": "0.0.1"
+  }
+}
